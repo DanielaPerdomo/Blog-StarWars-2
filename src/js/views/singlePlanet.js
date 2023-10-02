@@ -15,8 +15,8 @@ export const Planet = () => {
         <>
             {
             store.singlePlanet.properties ? (
-                <div className="planetContainer vh-80 bg-dark d-flex justify-content-center pt-5">
-                    <div className="card mb-3 bg-secondary" style={{width: "70%"}}>
+                <div className="planetContainer vh-80  d-flex justify-content-center pt-5">
+                    <div className="card mb-3 bg-dark text-light" style={{width: "70%"}}>
                         <div className="row g-0">
                             <div className="col-md-4">
                                 <img src={`https://starwars-visualguide.com/assets/img/planets/${store.singlePlanet.uid}.jpg`} className="img-fluid rounded-start" alt="..."/>
@@ -30,8 +30,8 @@ export const Planet = () => {
                                 </div>
                             </div>
                         </div>
-                        <hr style={{ borderTop: "2px solid red", margin: "10px 0" }} />
-                        <div className="datawrap text-center p-3">
+                        <hr style={{ borderTop: "2px solid black", margin: "10px 0" }} />
+                        <div className="datawrap text-center p-3 text-light">
                             <div className="row">
                                 <div className="col-md-2">
                                     <div className="row"><strong>Name</strong></div>

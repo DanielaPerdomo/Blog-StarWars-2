@@ -6,7 +6,7 @@ export const Navbar = () => {
 	const { store, actions } = useContext(Context);
 	
 	return (
-		<nav className="navbar d-flex justify-content-around navbar-light bg-secondary">
+		<nav className="navbar d-flex justify-content-around navbar-light ">
 			<div className="wrap d-flex align-items-center justify-content-between" style={{width: "70%"}}>
 				<Link to="/">
 					<span className="navbar-brand mb-0 h1">

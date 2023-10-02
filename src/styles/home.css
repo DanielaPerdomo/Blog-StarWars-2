@@ -18,6 +18,9 @@
     width: 68%;
     align-items: flex-start;
   }
-  
+  body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/20/16/00/night-sky-1469156_1280.jpg);
+    background-size: cover;
+  }
   
   

@@ -11,8 +11,8 @@ export const Home = () => {
 	}, []);
 
 	return (
-		<div className="bg-dark d-flex align-items-center flex-column">
-			<h1 className="characters text-danger pt-5">Characters</h1>
+		<div className="d-flex align-items-center flex-column">
+			<h1 className="characters text-light pt-5">Characters</h1>
 				<div className="scroll-container">
 					{store.characters.map((character,index) => (
 						<CharacterCard
@@ -21,7 +21,7 @@ export const Home = () => {
 						/>
 					))}
 				</div>
-			<h1 className="planets text-danger pt-5">Planets</h1>
+			<h1 className="planets text-light pt-5">Planets</h1>
 				<div className="scroll-container">
 					{store.planets.map((planet,index) => (
 						<PlanetCard
